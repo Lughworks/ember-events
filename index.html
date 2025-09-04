@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LS Car Fest</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <p class="tagline">Unleash the Beast. Master the Slide.</p>
+            <div id="countdown" class="countdown">
+                <div class="countdown-item"><span id="days">00</span>Days</div>
+                <div class="countdown-item"><span id="hours">00</span>Hours</div>
+                <div class="countdown-item"><span id="minutes">00</span>Minutes</div>
+                <div class="countdown-item"><span id="seconds">00</span>Seconds</div>
+            </div>
+            <a href="#register" class="btn primary">Register Now!</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About The Event</h2>
+            <p>Get ready for the ultimate display of skill, speed, and style! The Midnight Slide brings together the best drivers in Los Santos for a night of high-octane drifting action. Whether you're a seasoned pro or a spectator looking for thrills, this is an event you won't want to miss!</p>
+            <p>Join us at the **Sandy Shores Airfield** for an unforgettable evening. Prepare your ride, hone your skills, and get ready to leave your mark on the tarmac.</p>
+            
+        </div>
+    </section>
+
+    <section id="schedule" class="section dark-bg">
+        <div class="container">
+            <h2>Event Schedule</h2>
+            <div class="schedule-grid">
+                <div class="schedule-item">
+                    <h3>1st</h3>
+                    <p><strong>Driver Check-in & Warm-up</strong><br>
+                    Get signed up, meet fellow drivers, and take some warm-up laps on the practice track. Judges will be available for questions.</p>
+                </div>
+                <div class="schedule-item">
+                    <h3>2nd</h3>
+                    <p><strong>Main Event: Tandem Drift Competition</strong><br>
+                    The main show! Two drivers, one course, pure synchronized chaos. Judged on proximity, angle, and line.</p>
+                </div>
+                <div class="schedule-item">
+                    <h3>3rd</h3>
+                    <p><strong>Freestyle Drift Showcase</strong><br>
+                    Unleash your individual flair! Drivers have 90 seconds to impress judges with style, difficulty, and car control.</p>
+                </div>
+                <div class="schedule-item">
+                    <h3>4th</h3>
+                    <p><strong>Low-Speed Drifting Challenge</strong><br>
+                    Precision over power. Navigate a tight, technical course at low speeds while maintaining a continuous drift.</p>
+                </div>
+                <div class="schedule-item">
+                    <h3>5th</h3>
+                    <p><strong>Awards Ceremony & Wrap-up</strong><br>
+                    Trophies, prizes, and bragging rights! Celebrate the night's champions and mingle before heading out.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="competitions" class="section">
+        <div class="container">
+            <h2>Competitions</h2>
+            <div class="competition-grid">
+                <div class="comp-card">
+                    <h3>Tandem Drift Competition</h3>
+                    <p>Drivers pair up to execute synchronized drifts through a challenging course. Judges score on **proximity, angle, and line**. Precision and teamwork are key!</p>
+                </div>
+                <div class="comp-card">
+                    <h3>Freestyle Drift Showcase</h3>
+                    <p>Show off your individual skill! Each driver gets 90 seconds to perform their most creative and impressive solo drift routine. Judged on **style, difficulty, and car control**.</p>
+                </div>
+                <div class="comp-card">
+                    <h3>Low-Speed Drifting Challenge</h3>
+                    <p>A test of ultimate car control. Navigate a tight, technical course at low speeds, maintaining a continuous, controlled drift. Hit a cone, you're out!</p>
+                </div>
+            </div>
+            <div class="rules-link">
+                <p>Full rules for each competition will be available at check-in.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="prizes" class="section dark-bg">
+        <div class="container">
+            <h2>Prizes</h2>
+            <p>Champions won't just earn bragging rights – they'll take home some serious rewards!</p>
+            <ul>
+                <li>🏆 TBD</li>
+                <!--<li>💰 Significant Cash Payouts</li>
+                <li>🛠️ Exclusive Performance Upgrades / Custom Vehicle Wraps</li>
+                <li>📜 Limited Edition Custom License Plates</li>
+                <li>✨ And more surprises!</li>-->
+            </ul>
+        </div>
+    </section>
+
+    <section id="register" class="section">
+        <div class="container">
+            <h2>Register Your Spot</h2>
+            <p>Ready to compete or just show off your ride? Sign up below!</p>
+            <form action="https://formspree.io/f/mjkeprlr" method="POST" class="registration-form">
+                <input type="text" id="driver-name" name="driver-name" placeholder="Your RP Name" required>
+                <input type="text" id="discord-id" name="discord-id" placeholder="Your Discord ID" required>
+                <input type="text" id="vehicle-model" name="vehicle-model" placeholder="Vehicle Model (e.g., Futo GTX)" required>
+                <textarea id="comments" name="comments" placeholder="Any questions or special requests?"></textarea>
+                <button type="submit" class="btn primary">Submit Registration</button>
+            </form>
+            <p class="note">Registrations will be reviewed. Space is limited, so sign up early!</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Quinn Events. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
