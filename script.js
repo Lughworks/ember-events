@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set the date we're counting down to
     // IMPORTANT: Set your event date and time here!
     // Example: October 27, 2024, 7:00 PM (24-hour format)
-    const eventDate = new Date("September 5, 2025 22:00:00").getTime();
+    const eventDate = new Date("October 4, 2025 02:00:00").getTime();
 
     // Update the countdown every 1 second
     const x = setInterval(function() {
